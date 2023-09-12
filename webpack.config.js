@@ -82,6 +82,9 @@ module.exports = {
   ],
   resolve: {
     extensions: ['.jsx', '.js', '.vue'],
+    alias: {
+      vue: 'vue/dist/vue.js'
+    },
   },
   devServer: {
     static: {
